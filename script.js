@@ -1,10 +1,10 @@
 const title = "Это усложненные задания";
-let lang = "ru"; //lang может принимать только 2 значения!: 'ru' 'en'
-let langArray = [
+const lang = "ru"; //lang может принимать только 2 значения!: 'ru' 'en'
+const langArray = [
   ["ru", "пн, вт, ср, чт, пт, сб, вс"],
   ["en", "mo, tu, we, th, fr, sa, su"],
 ];
-let namePerson = "Александр";
+const namePerson = "Александр";
 console.log(" lang = " + lang);
 
 //a) через if,
@@ -28,6 +28,7 @@ switch (true) {
 lang == langArray[0][0]
   ? console.log(langArray[0][1])
   : console.log(langArray[1][1]);
+//задача про должности с помощью нескольких тернарных операторов
 namePerson == "Артем"
   ? console.log("директор")
   : namePerson == "Александр"
