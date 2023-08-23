@@ -25,9 +25,7 @@ switch (true) {
     console.log("нет такого! всего 2 варианта!");
 }
 //c) через многомерный массив без ифов и switch.
-lang == langArray[0][0]
-  ? console.log(langArray[0][1])
-  : console.log(langArray[1][1]);
+console.log(langArray[1][1]);
 //задача про должности с помощью нескольких тернарных операторов
 namePerson == "Артем"
   ? console.log("директор")
